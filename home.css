@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+body {
+    background-color: black;
+}
+
+header, nav {
+    height: 15vh;
+}
+
+.box1 {
+    height: 2.7vh;
+    background-color: #4F2C15;
+}
+
+.box2 {
+    height: 2.6vh;
+    background-color: #AF8431;
+}
+
+main {
+    height: 82vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+}
+
+/* aside, table {
+    border: 1px solid white;
+} */
+
+aside {
+    width: 10vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: #02209A;
+}
+
+div {
+    height: 80vh;
+    width: 10vh;
+    position: relative;
+    top: 1.5%;
+    background-color:#C0F2F8;
+}
+
+table {
+    height: 80vh;
+    width: 80vw;
+    text-align: center;
+}
+
+td {
+    color: black;
+    background-color: #0076bd;
+    border: 5px solid  #7AC24F;
+    width: 25vh;
+}
+
+td:hover {
+    background-color: #010405;
+    color: #7AC24F;
+}
+
+/* Quiz */
+
+#quiz {
+    height: 80vh;
+    width: 80vw;
+    position: absolute;
+    top: 15vh;
+    left: 10vw;
+    text-align: center;
+    display: none;
+    color: black;
+    background: linear-gradient(#2549B8,#7AC24F);
+}
+
+
